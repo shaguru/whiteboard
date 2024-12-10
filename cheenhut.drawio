@@ -1,9 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="_KX5ph_Zfh3Hmh3yzS6K">
-    <mxGraphModel dx="2033" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="20000" pageHeight="20000" math="0" shadow="0">
+    <mxGraphModel dx="4066" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="20000" pageHeight="20000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="python -m venv venv&#xa;venv\Scripts\activate&#xa;pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118&#xa;&#xa;&#xa;git lfs install&#xa;git-lfs-windows-v3.6.0.exe&#xa;&#xa;&#xa;pip install --upgrade pip&#xa;python -m ensurepip --upgrade (may need to do this instead of pip install --upgrade pipp)&#xa;&#xa;&#xa;pip install torch torchvision torchaudio&#xa;pip install diffusers transformers&#xa;pip install scipy&#xa;pip install accelerate&#xa;pip install gradio&#xa;&#xa;&#xa;mkdir models&#xa;cd models&#xa;git clone https://huggingface.co/CompVis/stable-diffusion-v1-4&#xa;&#xa;&#xa;--Install Cuda&#xa;&#xa;&#xa;pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 -f https://download.pytorch.org/whl/cu117/torch_stable.html" link="python -m venv venv&#xa;venv\Scripts\activate&#xa;pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118&#xa;&#xa;&#xa;git lfs install&#xa;git-lfs-windows-v3.6.0.exe&#xa;&#xa;&#xa;pip install --upgrade pip&#xa;python -m ensurepip --upgrade (may need to do this instead of pip install --upgrade pipp)&#xa;&#xa;&#xa;pip install torch torchvision torchaudio&#xa;pip install diffusers transformers&#xa;pip install scipy&#xa;pip install accelerate&#xa;pip install gradio&#xa;&#xa;&#xa;mkdir models&#xa;cd models&#xa;git clone https://huggingface.co/CompVis/stable-diffusion-v1-4&#xa;&#xa;&#xa;--Install Cuda&#xa;&#xa;&#xa;pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 -f https://download.pytorch.org/whl/cu117/torch_stable.html" id="Soonn9G3Vk-FsE1T8EZE-1">
+          <mxCell style="text;whiteSpace=wrap;rounded=0;glass=0;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry width="560" height="460" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
